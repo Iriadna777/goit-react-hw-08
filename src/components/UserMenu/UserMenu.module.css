@@ -1,0 +1,19 @@
+
+.userMenu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .logoutButton {
+    background-color: transparent;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
