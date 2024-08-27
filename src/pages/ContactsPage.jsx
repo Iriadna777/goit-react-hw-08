@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchContacts } from '../redux/contacts/operations';
-import ContactForm from './components/ContactForm/ContactForm';
-import ContactList from './components/ContactList/ContactList';
-import Filter from './components/Filter/Filter';
+import { fetchContacts } from '../redux/contacts/operations.js';
 import { selectIsLoggedIn } from '../redux/auth/selectors';
+import ContactForm from '../components/ContactForm/ContactForm';
+import ContactList from '../components/ContactList/ContactList';
+import Filter from '../components/Filter/Filter';
+
 
 const ContactsPage = () => {
   const dispatch = useDispatch();
